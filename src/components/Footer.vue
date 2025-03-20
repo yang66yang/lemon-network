@@ -3,6 +3,7 @@
     <div class="footer-content">
       <div class="footer-info">
         <p class="copyright">&copy; {{ new Date().getFullYear() }} 柠檬网络. All rights reserved.</p>
+        <a href="https://beian.miit.gov.cn/" class="icp-link">闽ICP备2024074065号-1</a>
         <div class="footer-links">
            <a href="mailto:dae123ll@163.com" class="social-link" title="Email">
             <i class="fas fa-envelope"></i>
@@ -10,7 +11,7 @@
           <a href="https://github.com/yang66yang" target="_blank" class="social-link" title="GitHub">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link" title="LinkedIn">
+          <a @click.prevent="copyWeChat" class="social-link" title="复制微信号">
             <i class="fab fa-weixin"></i>
           </a>
         </div>
@@ -19,6 +20,17 @@
     </div>
   </footer>
 </template>
+
+<script setup>
+const copyWeChat = () => {
+  const weChatId = 'abc665577oo'; // 替换为你的微信号
+  navigator.clipboard.writeText(weChatId).then(() => {
+    alert('微信号已复制: ' + weChatId);
+  }).catch(err => {
+    console.error('复制失败:', err);
+  });
+}
+</script>
 
 <style scoped>
 .footer {
@@ -44,6 +56,17 @@
 .copyright {
   color: #666;
   font-size: 0.9rem;
+}
+
+.icp-link {
+  color: #42b883; /* 设定链接颜色 */
+  font-size: 0.9rem;
+  text-decoration: none; /* 去掉下划线 */
+  transition: color 0.3s ease; /* 添加过渡效果 */
+}
+
+.icp-link:hover {
+  color: #3aa876; /* 悬停时的颜色 */
 }
 
 .footer-links {
