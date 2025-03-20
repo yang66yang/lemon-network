@@ -131,8 +131,8 @@ const projects = [
     description: '基于 Vue 3 + TypeScript 开发的现代化个人博客系统，支持 Markdown 写作和自动部署。',
     technologies: ['Vue 3', 'TypeScript', 'Markdown'],
     category: 'web',
-    demoUrl: '#',
-    githubUrl: '#'
+    demoUrl: 'https://llfone.cn',
+    githubUrl: 'https://github.com/yang66yang/lemon-network'
   },
   // 添加更多项目...
 ]
