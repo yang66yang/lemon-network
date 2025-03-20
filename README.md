@@ -44,6 +44,12 @@
 
    在浏览器中访问 `http://localhost:3000`。
 
+5.**打包**
+
+   ```bash
+    npm run build
+   ```
+ 
 ## 使用说明
 
 - 在 `src/views/Home.vue` 中编辑个人信息、技能和项目经历。
