@@ -24,7 +24,7 @@
 1. **克隆项目**
 
    ```bash
-   git clone https://github.com/yourusername/lemon-network.git](https://github.com/yang66yang/lemon-network.git
+   git clone https://github.com/yourusername/lemon-network.git
    cd lemon-network
    ```
 
@@ -42,7 +42,7 @@
 
 4. **打开浏览器**
 
-   在浏览器中访问 `http://localhost:5173`。
+   在浏览器中访问 `http://localhost:3000`。
 
 ## 使用说明
 
@@ -54,9 +54,7 @@
 
 以下是项目的界面截图：
 
-![项目界面](./public/微信截图_20250320102335.png) <!-- 请确保路径正确 -->
-![项目界面](./public/微信图片_20250320102402.png) <!-- 请确保路径正确 -->
-
+![项目界面](./src/assets/vue.svg) <!-- 请确保路径正确 -->
 
 ## 贡献
 
