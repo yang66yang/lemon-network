@@ -24,7 +24,7 @@
 1. **克隆项目**
 
    ```bash
-   git clone https://github.com/yourusername/lemon-network.git
+   git clone https://github.com/yourusername/lemon-network.git](https://github.com/yang66yang/lemon-network.git
    cd lemon-network
    ```
 
@@ -42,7 +42,7 @@
 
 4. **打开浏览器**
 
-   在浏览器中访问 `http://localhost:3000`。
+   在浏览器中访问 `http://localhost:5173`。
 
 ## 使用说明
 
