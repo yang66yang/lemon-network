@@ -2,20 +2,20 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-info">
-        <p class="copyright">&copy; {{ new Date().getFullYear() }} 你的名字. All rights reserved.</p>
+        <p class="copyright">&copy; {{ new Date().getFullYear() }} 柠檬网络. All rights reserved.</p>
         <div class="footer-links">
-          <a href="https://github.com/yourusername" target="_blank">
+           <a href="mailto:dae123ll@163.com" class="social-link" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/yang66yang" target="_blank" class="social-link" title="GitHub">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="mailto:your.email@example.com">
-            <i class="fas fa-envelope"></i>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link" title="LinkedIn">
+            <i class="fab fa-weixin"></i>
           </a>
         </div>
       </div>
-      <p class="powered-by">Made with <i class="fas fa-heart"></i> using Vue.js</p>
+      <p class="powered-by">Made with <i class="fas fa-heart"></i> 大鹅</p>
     </div>
   </footer>
 </template>
