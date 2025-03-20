@@ -3,7 +3,7 @@
     <div class="footer-content">
       <div class="footer-info">
         <p class="copyright">&copy; {{ new Date().getFullYear() }} 柠檬网络. All rights reserved.</p>
-        <a href="https://beian.miit.gov.cn/" class="icp-link">闽ICP备2024074065号-1</a>
+        <a href="https://beian.miit.gov.cn/" class="icp-link">闽ICP备</a>
         <div class="footer-links">
            <a href="mailto:dae123ll@163.com" class="social-link" title="Email">
             <i class="fas fa-envelope"></i>
