@@ -1,0 +1,17 @@
+my-blog/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Header.vue
+│   │   ├── Footer.vue
+│   │   └── BlogPost.vue
+│   ├── views/
+│   │   ├── Home.vue
+│   │   ├── Blog.vue
+│   │   └── About.vue
+│   ├── router/
+│   │   └── index.js
+│   ├── App.vue
+│   └── main.js
+├── index.html
+└── package.json 
