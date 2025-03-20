@@ -14,7 +14,7 @@
           <a href="https://github.com/yang66yang" target="_blank" class="social-link" title="GitHub">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link" title="LinkedIn">
+          <a @click.prevent="copyWeChat" class="social-link" title="复制微信号">
             <i class="fab fa-weixin"></i>
           </a>
         </div>
@@ -156,6 +156,16 @@ const hasMoreProjects = computed(() => {
 // 加载更多项目
 const loadMoreProjects = () => {
   currentPage.value++
+}
+
+// 复制微信号功能
+const copyWeChat = () => {
+  const weChatId = 'abc665577oo'; // 替换为你的微信号
+  navigator.clipboard.writeText(weChatId).then(() => {
+    alert('微信号已复制: ' + weChatId);
+  }).catch(err => {
+    console.error('复制失败:', err);
+  });
 }
 </script>
 
